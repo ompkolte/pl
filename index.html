@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Multiple Files</title>
+    <style>
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+            transition: background-color 0.3s;
+        }
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Download Your Files</h1>
+    
+    <a href="Menu Driven Singly Linked List.cpp" class="download-button" download>Menu driven sll</a>
+    <a href="Sparse Matrix.cpp" class="download-button" download>SP Matrix</a>
+    <a href="Doubly Ended Queue.cpp" class="download-button" download>dque</a>
+    <a href="Doubly Linked List.cpp" class="download-button" download>doubly linked list</a>
+    <a href="Round Robin.cpp" class="download-button" download>round robin</a>
+    <a href="SearchingSorting.cpp" class="download-button" download>searching sorting</a>
+    <a href="Singly Circular Linked List.cpp" class="download-button" download>circular linked list</a>
+    <a href="Stack Implementation- Infix, Prefix, Postfix.cpp" class="download-button" download>stack Implementation-</a>
+    <a href="sudoku.cpp" class="download-button" download>sudoku solver</a>
+    
+
+    <script>
+        // Optional: You can add JavaScript functionality if needed
+        const buttons = document.querySelectorAll('.download-button');
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                console.log(`Download started for: ${this.textContent}`);
+            });
+        });
+    </script>
+
+</body>
+</html>
